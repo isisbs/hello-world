@@ -1,0 +1,65 @@
+my test for git
+https://nvie.com/posts/a-successful-git-branching-model/
+1--Que es un pull request? 
+R: Es una solicitud de integración, es donde un colaborador pide que se revisen sus cambios antes de hacer el merge
+Básicamente un pull request es una petición para integrar nuestras propuestas o cambios de código a un proyecto.
+
+2--Comandos para clonar tu repositorio?
+R: en Git bash, podemos escribir en comando git clone + el nombre del repositorio que queremos clonar 
+ PASOS : 
+1.-En GitHub.com, navega a la página principal del repositorio. 1. Encima de la lista de archivos, haga clic en  Código.
+2.- Copia la dirección URL del repositorio.
+•	Para clonar el repositorio con HTTPS, en «HTTPS» haz clic en .
+•	Para clonar el repositorio mediante una clave SSH, incluido un certificado emitido por la entidad de certificación SSH de la organización, haga clic en Usar SSH y luego en simbolo copia.
+(Para clonar un repositorio mediante GitHub CLI, haz clic en GitHub CLI y, después, haz clic en símbolo de copiar  .)
+3.- Abra Git Bash. 4. Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el directorio. 5. Escriba git clone y pegue la dirección URL que ha copiado antes.
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+Presione **Entrar** para crear el clon local.
+Aparecerá algo similar cuando este haciendo el proceos de copiado 
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+
+
+3--Comando para crear branch?
+R: El comando git branch permite crear una rama nueva. Si quieres empezar a trabajar en una nueva función, puedes crear una rama nueva a partir de la rama main con git branch new_branch . Una vez creada, puedes usar git checkout new_branch para cambiar a esa rama.
+
+
+4--Agregar un nuevo archivo con texto llamad “pruebas.txt” a tu repositorio en la master desde tu local. 
+ PASOS:	
+  1.-escribir el comando " code . " en Git bash
+  2.-pocisionarse en la carpeta y dar clic en el signo de más de la parte superior y escribir el nombre del archivo pruebas.txt y presionar enter 
+Opción dos ,con comandos directamente desde Git bash 
+gdjibarb@GDLM16906 MINGW64 ~/hello-world (main)
+$ touch mytest.txt
+
+Qué Editor utilizar para Git??
+•	Utilizar un nano editor.
+•	Utilizar VIM aquí te dicen que vim es el editor por defecto por razones históricas, pero que te recomiendan que te cambies a otro editor.
+•	luego aparece la opción de utilizar Visual Studio Code como editor por defecto.
+
+5--Usar un pull request.? 
+Para hacer un pull request a Github sigue los siguientes pasos:
+1.	Hacer un fork (operación usual en el sistema de Git que se encarga de la creación de una copia de un repositorio en la cuenta de usuario) del repositorio original con el cual se quiere colaborar.
+2.	Clonar el repositorio.
+3.	Crear una rama nueva (acá sera donde haremos la colaboración)
+4.	Realizar el aporte.
+5.	Comitear los cambios.
+
+
+6--Indicar los pasos y los comandos? 
+
+
+
+
+
+
+
+
+
+
+
